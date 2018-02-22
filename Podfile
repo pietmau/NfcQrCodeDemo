@@ -8,6 +8,7 @@ target 'NfcQrCodeDemo' do
   # Pods for NfcQrCodeDemo
 
 	pod 'Firebase/Core'
+    pod 'Firebase/DynamicLinks'
 
   target 'NfcQrCodeDemoTests' do
     inherit! :search_paths

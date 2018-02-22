@@ -7,34 +7,34 @@
 	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
 	<string>ca-app-pub-3940256099942544/4411468910</string>
 	<key>CLIENT_ID</key>
-	<string>118201110615-c2qn3p18vfmc1433k7n11s5jpnlusrq9.apps.googleusercontent.com</string>
+	<string>516752034378-c1qujdqdp0vt7i1fgcaah3ppgimovnf5.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.118201110615-c2qn3p18vfmc1433k7n11s5jpnlusrq9</string>
+	<string>com.googleusercontent.apps.516752034378-c1qujdqdp0vt7i1fgcaah3ppgimovnf5</string>
 	<key>API_KEY</key>
-	<string>AIzaSyCdd9VO88pZY5QHhDqrh4lJp4uknhCAL-k</string>
+	<string>AIzaSyC3CfpgxQVLyijfHvZSDciZbv8sK14yKDI</string>
 	<key>GCM_SENDER_ID</key>
-	<string>118201110615</string>
+	<string>516752034378</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.pietrantuono.nfcqrdemo.NfcQrCodeDemo</string>
+	<string>com.fff.nfcqrdemo.NfcQrCodeDemo</string>
 	<key>PROJECT_ID</key>
-	<string>qnfcqrcodedemo</string>
+	<string>new-qr-and-nfc-demo</string>
 	<key>STORAGE_BUCKET</key>
-	<string>qnfcqrcodedemo.appspot.com</string>
+	<string>new-qr-and-nfc-demo.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<true></true>
 	<key>IS_ANALYTICS_ENABLED</key>
 	<false></false>
 	<key>IS_APPINVITE_ENABLED</key>
-	<false></false>
+	<true></true>
 	<key>IS_GCM_ENABLED</key>
 	<true></true>
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:118201110615:ios:f3f135b5ea76b5db</string>
+	<string>1:516752034378:ios:a847843fc1039cd4</string>
 	<key>DATABASE_URL</key>
-	<string>https://qnfcqrcodedemo.firebaseio.com</string>
+	<string>https://new-qr-and-nfc-demo.firebaseio.com</string>
 </dict>
 </plist>

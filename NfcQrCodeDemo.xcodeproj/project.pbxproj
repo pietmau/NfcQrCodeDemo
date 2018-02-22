@@ -16,9 +16,9 @@
 		9C2A39A4203F0C6B00E3E210 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C2A39A2203F0C6B00E3E210 /* LaunchScreen.storyboard */; };
 		9C2A39AF203F0C6B00E3E210 /* NfcQrCodeDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2A39AE203F0C6B00E3E210 /* NfcQrCodeDemoTests.swift */; };
 		9C2A39BA203F0C6B00E3E210 /* NfcQrCodeDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2A39B9203F0C6B00E3E210 /* NfcQrCodeDemoUITests.swift */; };
-		9C2A39CC203F179C00E3E210 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9C2A39CB203F179C00E3E210 /* GoogleService-Info.plist */; };
-		9C2A39CD203F179C00E3E210 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9C2A39CB203F179C00E3E210 /* GoogleService-Info.plist */; };
-		9C2A39CE203F179C00E3E210 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9C2A39CB203F179C00E3E210 /* GoogleService-Info.plist */; };
+		9C2A39D1203F357C00E3E210 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9C2A39D0203F357B00E3E210 /* GoogleService-Info.plist */; };
+		9C2A39D2203F357C00E3E210 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9C2A39D0203F357B00E3E210 /* GoogleService-Info.plist */; };
+		9C2A39D3203F357C00E3E210 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9C2A39D0203F357B00E3E210 /* GoogleService-Info.plist */; };
 		C0586EDD4B45DCD5EFA54690 /* Pods_NfcQrCodeDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B9CD0B049C1EAE73C36B2B /* Pods_NfcQrCodeDemoTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -55,8 +55,8 @@
 		9C2A39B5203F0C6B00E3E210 /* NfcQrCodeDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NfcQrCodeDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C2A39B9203F0C6B00E3E210 /* NfcQrCodeDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NfcQrCodeDemoUITests.swift; sourceTree = "<group>"; };
 		9C2A39BB203F0C6B00E3E210 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9C2A39CB203F179C00E3E210 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		9C2A39CF203F2F4A00E3E210 /* NfcQrCodeDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NfcQrCodeDemo.entitlements; sourceTree = "<group>"; };
+		9C2A39D0203F357B00E3E210 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A1B9CD0B049C1EAE73C36B2B /* Pods_NfcQrCodeDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NfcQrCodeDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A228755EE07FD2B703C03B78 /* Pods-NfcQrCodeDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NfcQrCodeDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NfcQrCodeDemoTests/Pods-NfcQrCodeDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		A31A4FF6D4DDAF13BD8237AD /* Pods_NfcQrCodeDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NfcQrCodeDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -107,6 +107,7 @@
 		9C2A398D203F0C6B00E3E210 = {
 			isa = PBXGroup;
 			children = (
+				9C2A39D0203F357B00E3E210 /* GoogleService-Info.plist */,
 				9C2A3998203F0C6B00E3E210 /* NfcQrCodeDemo */,
 				9C2A39AD203F0C6B00E3E210 /* NfcQrCodeDemoTests */,
 				9C2A39B8203F0C6B00E3E210 /* NfcQrCodeDemoUITests */,
@@ -130,7 +131,6 @@
 			isa = PBXGroup;
 			children = (
 				9C2A39CF203F2F4A00E3E210 /* NfcQrCodeDemo.entitlements */,
-				9C2A39CB203F179C00E3E210 /* GoogleService-Info.plist */,
 				9C2A3999203F0C6B00E3E210 /* AppDelegate.swift */,
 				9C2A399B203F0C6B00E3E210 /* ViewController.swift */,
 				9C2A399D203F0C6B00E3E210 /* Main.storyboard */,
@@ -294,7 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C2A39A4203F0C6B00E3E210 /* LaunchScreen.storyboard in Resources */,
-				9C2A39CC203F179C00E3E210 /* GoogleService-Info.plist in Resources */,
+				9C2A39D1203F357C00E3E210 /* GoogleService-Info.plist in Resources */,
 				9C2A39A1203F0C6B00E3E210 /* Assets.xcassets in Resources */,
 				9C2A399F203F0C6B00E3E210 /* Main.storyboard in Resources */,
 			);
@@ -304,7 +304,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C2A39CD203F179C00E3E210 /* GoogleService-Info.plist in Resources */,
+				9C2A39D2203F357C00E3E210 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,7 +312,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C2A39CE203F179C00E3E210 /* GoogleService-Info.plist in Resources */,
+				9C2A39D3203F357C00E3E210 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
