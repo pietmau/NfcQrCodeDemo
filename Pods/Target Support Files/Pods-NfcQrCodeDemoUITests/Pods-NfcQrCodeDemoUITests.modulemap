@@ -1,0 +1,6 @@
+framework module Pods_NfcQrCodeDemoUITests {
+  umbrella header "Pods-NfcQrCodeDemoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
