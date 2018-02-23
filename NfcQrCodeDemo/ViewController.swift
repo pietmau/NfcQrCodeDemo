@@ -16,15 +16,7 @@ class BuzzbikeTabBarController: UITabBarController {
 
     func onQrCodeUrlRetireved(_ url: URL) {
         selectedIndex = 1
-        if let last = url.pathComponents.last{
-            if last == "red"{
-                return
-            }
-            if last == "blue"{
-                return
-            }
-
-        }
+        (self.viewControllers![1] as? QrCodeViewController)?.onQrCodeUrlRetireved(url)
     }
 }
 
