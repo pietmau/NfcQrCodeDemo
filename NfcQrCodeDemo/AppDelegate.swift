@@ -11,35 +11,35 @@ import Firebase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
+    
     var window: UIWindow?
-
+    
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        // Override point for customization after application launch.
+        FirebaseApp.configure()
+        return true
+    }
+    
     func application(_ application: UIApplication, continue userActivity: NSUserActivity,
                      restorationHandler: @escaping ([Any]?) -> Void) -> Bool {
         guard let dynamicLinks = DynamicLinks.dynamicLinks() else {
             return false
         }
         let handled = dynamicLinks.handleUniversalLink(userActivity.webpageURL!) { (dynamiclink, error) in
-            if let dynamiclink = dynamiclink, let _ = dynamiclink.url {
-                self.handleDynamicLynk(link: dynamiclink)
-            }
+            // ...
         }
+        
         return handled
     }
-
-    func handleDynamicLynk(link: DynamicLink) {
-        let controller = (self.window?.rootViewController as? BuzzbikeTabBarController)
-        // Cannot be null
-        controller!.tabBarController!.selectedIndex = 2
-    }
-
+    
+    
     @available(iOS 9.0, *)
-    func application(_ app: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey: Any]) -> Bool {
+    func application(_ app: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any]) -> Bool {
         return application(app, open: url,
-                sourceApplication: options[UIApplicationOpenURLOptionsKey.sourceApplication] as? String,
-                annotation: "")
+                           sourceApplication: options[UIApplicationOpenURLOptionsKey.sourceApplication] as? String,
+                           annotation: "")
     }
-
+    
     func application(_ application: UIApplication, open url: URL, sourceApplication: String?, annotation: Any) -> Bool {
         if let dynamicLink = DynamicLinks.dynamicLinks()?.dynamicLink(fromCustomSchemeURL: url) {
             return true
@@ -47,4 +47,5 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         return false
     }
 }
+
 
