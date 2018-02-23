@@ -42,10 +42,10 @@
             </objects>
             <point key="canvasLocation" x="-1785" y="-658"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--View Controller-->
         <scene sceneID="zna-dC-Gbe">
             <objects>
-                <tabBarController id="s09-y8-qOq" sceneMemberID="viewController">
+                <tabBarController id="s09-y8-qOq" customClass="ViewController" customModule="NfcQrCodeDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="JoN-bH-bNn">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>

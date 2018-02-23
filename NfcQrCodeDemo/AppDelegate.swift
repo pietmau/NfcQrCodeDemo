@@ -49,12 +49,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             return false
         }
         let handled = dynamicLinks.handleUniversalLink(userActivity.webpageURL!) { (dynamiclink, error) in
-            // ...
+            if let dynamiclink = dynamiclink, let _ = dynamiclink.url{
+                self.handleDynamicLynk(link: dynamiclink)
+            }
         }
-        
         return handled
     }
 
+    func handleDynamicLynk(link: DynamicLink){
+        
+    }
     
     @available(iOS 9.0, *)
     func application(_ app: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any]) -> Bool {
@@ -65,9 +69,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func application(_ application: UIApplication, open url: URL, sourceApplication: String?, annotation: Any) -> Bool {
         if let dynamicLink = DynamicLinks.dynamicLinks()?.dynamicLink(fromCustomSchemeURL: url) {
-            // Handle the deep link. For example, show the deep-linked content or
-            // apply a promotional offer to the user's account.
-            // ...
             return true
         }
         return false
