@@ -11,7 +11,6 @@ import Firebase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
     var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
@@ -25,10 +24,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             return false
         }
         let handled = dynamicLinks.handleUniversalLink(userActivity.webpageURL!) { (dynamiclink, error) in
-            if let dynamiclink = dynamiclink, let _ = dynamiclink.url {
-                if let url = (dynamiclink as? DynamicLink)?.url {
-                    self.handleUrl(url: url)
-                }
+            if let url = dynamiclink?.url {
+                self.handleUrl(url: url)
             }
         }
         return handled
@@ -36,7 +33,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     private func handleUrl(url url: URL) {
-
+        let controller = self.window?.rootViewController as? BuzzbikeTabBarController
+        controller!.onQrCodeUrlRetireved(url)
     }
 
     @available(iOS 9.0, *)

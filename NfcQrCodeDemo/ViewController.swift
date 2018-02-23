@@ -10,12 +10,21 @@ import UIKit
 
 class BuzzbikeTabBarController: UITabBarController {
 
-    @IBOutlet weak var nfc: UITabBarItem!
-    @IBOutlet weak var qr: UITabBarItem!
-    
     override func viewDidLoad() {
-        super.viewDidLoad() 
+        super.viewDidLoad()
     }
 
+    func onQrCodeUrlRetireved(_ url: URL) {
+        selectedIndex = 1
+        if let last = url.pathComponents.last{
+            if last == "red"{
+                return
+            }
+            if last == "blue"{
+                return
+            }
+
+        }
+    }
 }
 

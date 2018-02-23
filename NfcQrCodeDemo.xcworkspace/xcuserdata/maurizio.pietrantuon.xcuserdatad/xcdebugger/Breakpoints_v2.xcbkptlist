@@ -10,7 +10,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NfcQrCodeDemo/AppDelegate.swift"
-            timestampString = "541077386.942782"
+            timestampString = "541077604.616403"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "52"
@@ -26,7 +26,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NfcQrCodeDemo/AppDelegate.swift"
-            timestampString = "541077386.9431289"
+            timestampString = "541077604.616762"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "52"
@@ -42,7 +42,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NfcQrCodeDemo/AppDelegate.swift"
-            timestampString = "541077386.943363"
+            timestampString = "541077604.616995"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "52"
@@ -58,7 +58,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NfcQrCodeDemo/AppDelegate.swift"
-            timestampString = "541077386.9435869"
+            timestampString = "541077604.617213"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "52"
@@ -74,7 +74,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NfcQrCodeDemo/AppDelegate.swift"
-            timestampString = "541077386.9438061"
+            timestampString = "541077604.61743"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "52"
@@ -90,13 +90,45 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NfcQrCodeDemo/AppDelegate.swift"
-            timestampString = "541077386.944032"
+            timestampString = "541077604.617648"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "30"
             endingLineNumber = "30"
             landmarkName = "application(_:continue:restorationHandler:)"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NfcQrCodeDemo.AppDelegate.application(__ObjC.UIApplication, continue: __ObjC.NSUserActivity, restorationHandler: (Swift.Optional&lt;Swift.Array&lt;Any&gt;&gt;) -&gt; ()) -&gt; Swift.Bool"
+                  moduleName = "NfcQrCodeDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maurizio.pietrantuon/Documents/git/NfcQrCodeDemo/NfcQrCodeDemo/AppDelegate.swift"
+                  timestampString = "541077604.749411"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "540">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__ObjC.DynamicLink&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in NfcQrCodeDemo.AppDelegate.application(__ObjC.UIApplication, continue: __ObjC.NSUserActivity, restorationHandler: (Swift.Optional&lt;Swift.Array&lt;Any&gt;&gt;) -&gt; ()) -&gt; Swift.Bool"
+                  moduleName = "NfcQrCodeDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maurizio.pietrantuon/Documents/git/NfcQrCodeDemo/NfcQrCodeDemo/AppDelegate.swift"
+                  timestampString = "541077604.7508889"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "276">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -106,7 +138,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NfcQrCodeDemo/AppDelegate.swift"
-            timestampString = "541077386.944241"
+            timestampString = "541077604.617864"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "44"
@@ -122,13 +154,45 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NfcQrCodeDemo/AppDelegate.swift"
-            timestampString = "541077386.9444489"
+            timestampString = "541077604.6180691"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "25"
             endingLineNumber = "25"
             landmarkName = "application(_:continue:restorationHandler:)"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NfcQrCodeDemo.AppDelegate.application(__ObjC.UIApplication, continue: __ObjC.NSUserActivity, restorationHandler: (Swift.Optional&lt;Swift.Array&lt;Any&gt;&gt;) -&gt; ()) -&gt; Swift.Bool"
+                  moduleName = "NfcQrCodeDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maurizio.pietrantuon/Documents/git/NfcQrCodeDemo/NfcQrCodeDemo/AppDelegate.swift"
+                  timestampString = "541077604.757215"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "164">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__ObjC.DynamicLink&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in NfcQrCodeDemo.AppDelegate.application(__ObjC.UIApplication, continue: __ObjC.NSUserActivity, restorationHandler: (Swift.Optional&lt;Swift.Array&lt;Any&gt;&gt;) -&gt; ()) -&gt; Swift.Bool"
+                  moduleName = "NfcQrCodeDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maurizio.pietrantuon/Documents/git/NfcQrCodeDemo/NfcQrCodeDemo/AppDelegate.swift"
+                  timestampString = "541077604.7588381"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -138,12 +202,28 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NfcQrCodeDemo/AppDelegate.swift"
-            timestampString = "541077386.944656"
+            timestampString = "541077604.618276"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "40"
             endingLineNumber = "40"
-            landmarkName = "handleLink(_:)"
+            landmarkName = "AppDelegate"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NfcQrCodeDemo/AppDelegate.swift"
+            timestampString = "541077623.768592"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "handleUrl(url:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
