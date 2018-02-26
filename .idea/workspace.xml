@@ -17,7 +17,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="iphoneos_30d013137d98ef9e59aa7d105d2083c4a2a0a090" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="iphoneos_" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="AppDelegate.swift" pinned="false" current-in-tab="false">
@@ -153,16 +153,15 @@
       <workItem from="1519383922539" duration="286000" />
       <workItem from="1519384236085" duration="1250000" />
       <workItem from="1519386114727" duration="689000" />
-      <workItem from="1519388765657" duration="471000" />
+      <workItem from="1519388765657" duration="693000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3824000" />
+    <option name="totallyTimeSpent" value="4046000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="801" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2184637" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />

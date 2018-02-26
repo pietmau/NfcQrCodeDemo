@@ -64,30 +64,36 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fBT-bK-1Hc">
-                                <rect key="frame" x="0.0" y="374" width="375" height="30"/>
-                                <state key="normal" title="SCAN!"/>
-                                <connections>
-                                    <action selector="onButtonClick:" destination="hvQ-M6-bHc" eventType="touchUpInside" id="wVC-5r-Osy"/>
-                                </connections>
-                            </button>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="baV-se-3pa">
                                 <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                                 <items>
                                     <navigationItem title="NFC Tags" id="76D-6z-zvJ"/>
                                 </items>
                             </navigationBar>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fBT-bK-1Hc">
+                                <rect key="frame" x="88" y="508" width="200" height="50"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Iyu-YM-nbg"/>
+                                    <constraint firstAttribute="width" constant="200" id="ejp-0x-hFl"/>
+                                </constraints>
+                                <state key="normal" title="SCAN!">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="onButtonClick:" destination="hvQ-M6-bHc" eventType="touchUpInside" id="wVC-5r-Osy"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="baV-se-3pa" firstAttribute="top" secondItem="yPX-09-wvr" secondAttribute="top" constant="20" id="2Nc-hL-u8A"/>
                             <constraint firstItem="BzY-t8-0Tu" firstAttribute="centerY" secondItem="yPX-09-wvr" secondAttribute="centerY" id="41a-8C-1Jc"/>
+                            <constraint firstItem="eDu-PI-ycv" firstAttribute="bottom" secondItem="fBT-bK-1Hc" secondAttribute="bottom" constant="60" id="44B-4X-Iq4"/>
+                            <constraint firstItem="baV-se-3pa" firstAttribute="leading" secondItem="yPX-09-wvr" secondAttribute="leading" id="49F-C7-XuI"/>
                             <constraint firstItem="BzY-t8-0Tu" firstAttribute="centerX" secondItem="yPX-09-wvr" secondAttribute="centerX" id="GEZ-77-Ar4"/>
-                            <constraint firstItem="baV-se-3pa" firstAttribute="trailing" secondItem="fBT-bK-1Hc" secondAttribute="trailing" id="K1E-IS-eWL"/>
-                            <constraint firstItem="baV-se-3pa" firstAttribute="leading" secondItem="fBT-bK-1Hc" secondAttribute="leading" id="QCw-yM-pbE"/>
-                            <constraint firstItem="fBT-bK-1Hc" firstAttribute="leading" secondItem="eDu-PI-ycv" secondAttribute="leading" id="RZl-8F-ieu"/>
-                            <constraint firstItem="eDu-PI-ycv" firstAttribute="trailing" secondItem="fBT-bK-1Hc" secondAttribute="trailing" id="aTV-d2-jtX"/>
-                            <constraint firstItem="fBT-bK-1Hc" firstAttribute="top" secondItem="BzY-t8-0Tu" secondAttribute="bottom" constant="40" id="mWT-Yc-khy"/>
+                            <constraint firstItem="baV-se-3pa" firstAttribute="centerX" secondItem="BzY-t8-0Tu" secondAttribute="centerX" id="VNG-Bw-Xhj"/>
+                            <constraint firstItem="fBT-bK-1Hc" firstAttribute="centerX" secondItem="yPX-09-wvr" secondAttribute="centerX" id="u2g-gF-KP2"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="eDu-PI-ycv"/>
                     </view>

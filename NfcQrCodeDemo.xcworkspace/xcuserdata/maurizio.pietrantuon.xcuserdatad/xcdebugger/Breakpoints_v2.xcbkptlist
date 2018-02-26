@@ -10,7 +10,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NfcQrCodeDemo/AppDelegate.swift"
-            timestampString = "541096795.0733891"
+            timestampString = "541332238.513347"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "52"
@@ -26,7 +26,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NfcQrCodeDemo/AppDelegate.swift"
-            timestampString = "541096795.073451"
+            timestampString = "541332238.51346"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "52"
@@ -42,7 +42,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NfcQrCodeDemo/AppDelegate.swift"
-            timestampString = "541096795.073495"
+            timestampString = "541332238.513526"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "52"
@@ -58,7 +58,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NfcQrCodeDemo/AppDelegate.swift"
-            timestampString = "541096795.073536"
+            timestampString = "541332238.5135829"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "52"
@@ -74,7 +74,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NfcQrCodeDemo/AppDelegate.swift"
-            timestampString = "541096795.0735739"
+            timestampString = "541332238.513638"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "52"
@@ -90,7 +90,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NfcQrCodeDemo/AppDelegate.swift"
-            timestampString = "541096795.073612"
+            timestampString = "541332238.513696"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "30"
@@ -106,7 +106,7 @@
                   moduleName = "NfcQrCodeDemo"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/maurizio.pietrantuon/Documents/git/NfcQrCodeDemo/NfcQrCodeDemo/AppDelegate.swift"
-                  timestampString = "541077604.749411"
+                  timestampString = "541331975.806237"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "30"
@@ -121,7 +121,7 @@
                   moduleName = "NfcQrCodeDemo"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/maurizio.pietrantuon/Documents/git/NfcQrCodeDemo/NfcQrCodeDemo/AppDelegate.swift"
-                  timestampString = "541077604.7508889"
+                  timestampString = "541331975.807847"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "30"
@@ -138,7 +138,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NfcQrCodeDemo/AppDelegate.swift"
-            timestampString = "541096795.073648"
+            timestampString = "541332238.513765"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "44"
@@ -154,7 +154,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NfcQrCodeDemo/AppDelegate.swift"
-            timestampString = "541096795.073686"
+            timestampString = "541332238.5138299"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "25"
@@ -170,7 +170,7 @@
                   moduleName = "NfcQrCodeDemo"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/maurizio.pietrantuon/Documents/git/NfcQrCodeDemo/NfcQrCodeDemo/AppDelegate.swift"
-                  timestampString = "541077604.757215"
+                  timestampString = "541331975.817209"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "26"
@@ -185,7 +185,7 @@
                   moduleName = "NfcQrCodeDemo"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/maurizio.pietrantuon/Documents/git/NfcQrCodeDemo/NfcQrCodeDemo/AppDelegate.swift"
-                  timestampString = "541077604.7588381"
+                  timestampString = "541331975.818625"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "27"
@@ -202,7 +202,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NfcQrCodeDemo/AppDelegate.swift"
-            timestampString = "541096795.073723"
+            timestampString = "541332238.513885"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "40"
@@ -218,12 +218,60 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NfcQrCodeDemo/AppDelegate.swift"
-            timestampString = "541096795.0737931"
+            timestampString = "541332238.513938"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "36"
             endingLineNumber = "36"
             landmarkName = "handleUrl(url:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NfcQrCodeDemo/TagViewController.swift"
+            timestampString = "541332238.5139951"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "readerSession(_:didInvalidateWithError:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NfcQrCodeDemo/TagViewController.swift"
+            timestampString = "541332238.514055"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "readerSession(_:didDetectNDEFs:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NfcQrCodeDemo/TagViewController.swift"
+            timestampString = "541332238.5141211"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "onButtonClick(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

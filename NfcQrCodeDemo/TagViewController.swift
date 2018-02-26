@@ -7,17 +7,24 @@
 //
 
 import UIKit
+import CoreNFC
 
-class TagViewController: UIViewController {
-
-    @IBAction func onButtonClick(_ sender: Any) {
-    }
-    
+class TagViewController: UIViewController, NFCNDEFReaderSessionDelegate {
     @IBOutlet weak var label: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-
+    
+    @IBAction func onButtonClick(_ sender: Any) {
+        let session = NFCNDEFReaderSession(delegate: self, queue: nil, invalidateAfterFirstRead: true)
+        session.begin()
+    }
+    
+    func readerSession(_ session: NFCNDEFReaderSession, didInvalidateWithError error: Error) {
+    }
+    
+    func readerSession(_ session: NFCNDEFReaderSession, didDetectNDEFs messages: [NFCNDEFMessage]) {
+    }
 
 }
