@@ -106,7 +106,7 @@
                   moduleName = "NfcQrCodeDemo"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/maurizio.pietrantuon/Documents/git/NfcQrCodeDemo/NfcQrCodeDemo/AppDelegate.swift"
-                  timestampString = "541440413.070515"
+                  timestampString = "541441368.4994119"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "30"
@@ -121,7 +121,7 @@
                   moduleName = "NfcQrCodeDemo"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/maurizio.pietrantuon/Documents/git/NfcQrCodeDemo/NfcQrCodeDemo/AppDelegate.swift"
-                  timestampString = "541440413.0720201"
+                  timestampString = "541441368.501068"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "30"
@@ -170,7 +170,7 @@
                   moduleName = "NfcQrCodeDemo"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/maurizio.pietrantuon/Documents/git/NfcQrCodeDemo/NfcQrCodeDemo/AppDelegate.swift"
-                  timestampString = "541440413.078292"
+                  timestampString = "541441368.50992"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "26"
@@ -185,7 +185,7 @@
                   moduleName = "NfcQrCodeDemo"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/maurizio.pietrantuon/Documents/git/NfcQrCodeDemo/NfcQrCodeDemo/AppDelegate.swift"
-                  timestampString = "541440413.079746"
+                  timestampString = "541441368.511815"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "27"
@@ -278,59 +278,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NfcQrCodeDemo/CameraViewController.swift"
-            timestampString = "541441217.596369"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "36"
-            endingLineNumber = "36"
-            landmarkName = "scanInPreviewAction(_:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "NfcQrCodeDemo.CameraViewController.scanInPreviewAction(Any) -&gt; ()"
-                  moduleName = "NfcQrCodeDemo"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/maurizio.pietrantuon/Documents/git/NfcQrCodeDemo/NfcQrCodeDemo/CameraViewController.swift"
-                  timestampString = "541440413.101244"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "37"
-                  endingLineNumber = "37"
-                  offsetFromSymbolStart = "32">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (QRCodeReader.QRCodeReaderResult) -&gt; () in NfcQrCodeDemo.CameraViewController.scanInPreviewAction(Any) -&gt; ()"
-                  moduleName = "NfcQrCodeDemo"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/maurizio.pietrantuon/Documents/git/NfcQrCodeDemo/NfcQrCodeDemo/CameraViewController.swift"
-                  timestampString = "541440413.103815"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "38"
-                  endingLineNumber = "38"
-                  offsetFromSymbolStart = "64">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "NfcQrCodeDemo/CameraViewController.swift"
-            timestampString = "541441217.5964431"
+            timestampString = "541442136.790414"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "40"

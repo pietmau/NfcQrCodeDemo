@@ -10,8 +10,10 @@ import AVFoundation
 import UIKit
 import QRCodeReader
 
-class CameraViewController: UIViewController, QRCodeReaderViewControllerDelegate {
+class CameraViewController: UIViewController {
 
+    @IBOutlet weak var label: UILabel!
+    
     @IBOutlet weak var previewView: QRCodeReaderView! {
         didSet {
             previewView.setupComponents(showCancelButton: false, showSwitchCameraButton: false, showTorchButton: false, showOverlayView: true, reader: reader)
@@ -32,22 +34,9 @@ class CameraViewController: UIViewController, QRCodeReaderViewControllerDelegate
     }()
 
     @IBAction func scanInPreviewAction(_ sender: Any) {
-        //guard checkScanPermissions(), !reader.isRunning else { return }
-
         reader.didFindCode = { result in
-            print("Completion with result: \(result.value) of type \(result.metadataType)")
+            self.label.text = result.value
         }
-
         reader.startScanning()
     }
-
-    func reader(_ reader: QRCodeReaderViewController, didScanResult result: QRCodeReaderResult) {
-
-    }
-
-    func readerDidCancel(_ reader: QRCodeReaderViewController) {
-
-    }
-
-
 }

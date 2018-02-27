@@ -25,7 +25,7 @@
                                 </items>
                             </navigationBar>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KT3-GF-nbm" customClass="QRCodeReaderView" customModule="QRCodeReader">
-                                <rect key="frame" x="0.0" y="64" width="375" height="378"/>
+                                <rect key="frame" x="0.0" y="64" width="375" height="254"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hVe-bA-6x5">
@@ -42,9 +42,19 @@
                                     <action selector="scanInPreviewAction:" destination="xiY-Kl-KrP" eventType="touchUpInside" id="K9m-hl-wo2"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zqo-zu-sFd">
+                                <rect key="frame" x="20" y="424" width="375" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="T7f-qT-eNi"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="hVe-bA-6x5" firstAttribute="top" secondItem="Zqo-zu-sFd" secondAttribute="bottom" constant="73" id="3Ng-Q1-3Cx"/>
                             <constraint firstItem="717-xf-cHW" firstAttribute="trailing" secondItem="HRB-sA-2Ee" secondAttribute="trailing" id="6w5-i6-Yo8"/>
                             <constraint firstItem="KT3-GF-nbm" firstAttribute="leading" secondItem="HRB-sA-2Ee" secondAttribute="leading" id="7Bf-D6-Ung"/>
                             <constraint firstItem="KT3-GF-nbm" firstAttribute="trailing" secondItem="HRB-sA-2Ee" secondAttribute="trailing" id="8RJ-bH-1Ba"/>
@@ -52,14 +62,17 @@
                             <constraint firstItem="717-xf-cHW" firstAttribute="top" secondItem="HRB-sA-2Ee" secondAttribute="top" id="D9q-NI-dwt"/>
                             <constraint firstItem="717-xf-cHW" firstAttribute="leading" secondItem="HRB-sA-2Ee" secondAttribute="leading" id="LiZ-2t-xdC"/>
                             <constraint firstItem="KT3-GF-nbm" firstAttribute="top" secondItem="717-xf-cHW" secondAttribute="bottom" id="M77-30-wiL"/>
-                            <constraint firstItem="hVe-bA-6x5" firstAttribute="top" secondItem="KT3-GF-nbm" secondAttribute="bottom" constant="76" id="UrD-y7-Zr5"/>
+                            <constraint firstItem="Zqo-zu-sFd" firstAttribute="leading" secondItem="HRB-sA-2Ee" secondAttribute="leading" constant="20" id="PGF-tG-oH1"/>
+                            <constraint firstItem="hVe-bA-6x5" firstAttribute="top" secondItem="KT3-GF-nbm" secondAttribute="bottom" constant="200" id="UrD-y7-Zr5"/>
                             <constraint firstItem="hVe-bA-6x5" firstAttribute="bottom" secondItem="HRB-sA-2Ee" secondAttribute="bottom" constant="-50" id="shx-uk-V1t"/>
+                            <constraint firstItem="Zqo-zu-sFd" firstAttribute="trailing" secondItem="HRB-sA-2Ee" secondAttribute="trailing" constant="20" id="vTL-xl-jSJ"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="HRB-sA-2Ee"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Reader" image="icons8-camera-filled-50" id="WWa-PE-YrY"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
+                        <outlet property="label" destination="Zqo-zu-sFd" id="Lt5-Ad-Q6P"/>
                         <outlet property="previewView" destination="KT3-GF-nbm" id="d1h-d3-YXQ"/>
                     </connections>
                 </viewController>

@@ -27,7 +27,7 @@ class QrCodeViewController: UIViewController {
                 label.textColor = UIColor.red
             }
             if last == "blue" {
-                label.text = "THIS IS A BLU LINK"
+                label.text = "THIS IS A BLUE LINK"
                 label.textColor = UIColor.blue
             }
         }
