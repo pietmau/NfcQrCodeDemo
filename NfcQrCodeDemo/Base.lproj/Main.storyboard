@@ -80,7 +80,7 @@
             </objects>
             <point key="canvasLocation" x="-2572" y="479.91004497751129"/>
         </scene>
-        <!--QR Code-->
+        <!--Url-->
         <scene sceneID="SfO-HE-Xc4">
             <objects>
                 <viewController id="QU3-F5-TUi" customClass="QrCodeViewController" customModule="NfcQrCodeDemo" customModuleProvider="target" sceneMemberID="viewController">
@@ -111,7 +111,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="lqG-Xl-v0j"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="QR Code" image="icons8-qr-code-filled-50" id="FHD-SY-em4"/>
+                    <tabBarItem key="tabBarItem" title="Url" image="icons8_link_24" id="FHD-SY-em4"/>
                     <connections>
                         <outlet property="label" destination="leS-Fn-4VQ" id="713-TA-1OB"/>
                     </connections>
@@ -198,7 +198,7 @@
     </scenes>
     <resources>
         <image name="icons8-camera-filled-50" width="25" height="25"/>
-        <image name="icons8-qr-code-filled-50" width="25" height="25"/>
         <image name="icons8-tags-50" width="25" height="25"/>
+        <image name="icons8_link_24" width="12" height="12"/>
     </resources>
 </document>
